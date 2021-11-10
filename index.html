@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Prognosis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container center">
+        <div class="title">
+            <h1>WEATHER REPORT</h1>
+        </div>
+        <div class="location-input center" id="location-div">
+            <form action="" class="center">
+                <p>Enter city name :</p>
+                <input type="text" id="cityname">
+                <button id="submit">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    <div class="result center active" id="result-div">
+        <div class="city center">
+            <h1 id="location">Location</h1>
+        </div>
+        <div class="temperature center">
+            <p><span id="temp-value">25</span id="temp-unit">&#176C<span></span></p>
+        </div>
+        <div class="climate center">
+            <p id="city_climate">Climate</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
